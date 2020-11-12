@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_up"
+    tools:context=".SignUp">
+
+
+    <EditText
+        android:id="@+id/addEmailAddress4"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@drawable/edittextcustom"
+        android:drawableEnd="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:fontFamily="@font/titillium_web"
+        android:hint="   Passord"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#767EA8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addusername"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <EditText
+        android:id="@+id/addEmailAddress3"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@drawable/edittextcustom"
+        android:drawableEnd="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:fontFamily="@font/titillium_web"
+        android:hint="   Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#767EA8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addusername"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <EditText
+        android:id="@+id/addusername"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="@drawable/edittextcustom"
+        android:drawableEnd="@drawable/ic_baseline_people_24"
+        android:ems="10"
+        android:fontFamily="@font/titillium_web"
+        android:hint="   Username"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#767EA8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titillium_web"
+        android:text="Sign up to Taland"
+        android:textColor="#A7AECE"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/titillium_web_bold"
+        android:text="TALAND"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
